@@ -1,0 +1,5 @@
+
+INFO [2024-01-18T19:46:58.183Z]: Set User: jake@onchaininnovation.com
+INFO [2024-01-18T19:46:58.183Z]: {"Telemetry":true}
+INFO [2024-01-18T19:46:58.655Z]: extension_initialized
+INFO [2024-01-18T19:46:58.655Z]: {"timeToInit":3177,"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
