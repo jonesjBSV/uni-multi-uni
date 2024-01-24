@@ -3,3 +3,35 @@ INFO [2024-01-18T19:46:58.183Z]: Set User: jake@onchaininnovation.com
 INFO [2024-01-18T19:46:58.183Z]: {"Telemetry":true}
 INFO [2024-01-18T19:46:58.655Z]: extension_initialized
 INFO [2024-01-18T19:46:58.655Z]: {"timeToInit":3177,"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T17:33:15.714Z]: Set User: jake@onchaininnovation.com
+INFO [2024-01-23T17:33:15.714Z]: {"Telemetry":true}
+INFO [2024-01-23T17:33:16.205Z]: extension_initialized
+INFO [2024-01-23T17:33:16.205Z]: {"timeToInit":6846,"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:19:47.897Z]: Set User: jake@onchaininnovation.com
+INFO [2024-01-23T18:19:47.897Z]: {"Telemetry":true}
+INFO [2024-01-23T18:19:48.426Z]: extension_initialized
+INFO [2024-01-23T18:19:48.426Z]: {"timeToInit":2593,"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:20:35.215Z]: Set User: jake@onchaininnovation.com
+INFO [2024-01-23T18:20:35.215Z]: {"Telemetry":true}
+INFO [2024-01-23T18:20:35.620Z]: extension_initialized
+INFO [2024-01-23T18:20:35.620Z]: {"timeToInit":2316,"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:20:41.273Z]: project_languages
+INFO [2024-01-23T18:20:41.273Z]: {"languages":["Golang","C"],"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:20:44.099Z]: project_initialize_start
+INFO [2024-01-23T18:20:44.099Z]: {"name":"ubsv_ipv6_multicast","languages":["C","Golang","JSON"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.a","*.app","*.cab","*.cmd","*.d","*.dSYM/","*.dll","*.dylib","*.elf","*.exe","*.exe~","*.exp","*.gch","*.hex","*.i*86","*.idb","*.ilk","*.ko","*.la","*.lib","*.lnk","*.lo","*.map","*.mod*","*.msi","*.msix","*.msm","*.msp","*.o","*.obj","*.out","*.pch","*.pdb","*.so","*.so.*","*.stackdump","*.su","*.test","*.vsix","*.x86_64","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".com.apple.timemachine.donotpresent",".cosine",".directory",".fseventsd",".fuse_hidden*",".git",".github",".history/",".nfs*",".tmp_versions/",".vscode/*","Icon","Mkfile.old","Module.symvers","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","dkms.conf","ehthumbs.db","ehthumbs_vista.db","go.work","modules.order"],"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:21:17.628Z]: project_initialize_success
+INFO [2024-01-23T18:21:17.628Z]: {"name":"ubsv_ipv6_multicast","languages":["C","Golang","JSON"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.a","*.app","*.cab","*.cmd","*.d","*.dSYM/","*.dll","*.dylib","*.elf","*.exe","*.exe~","*.exp","*.gch","*.hex","*.i*86","*.idb","*.ilk","*.ko","*.la","*.lib","*.lnk","*.lo","*.map","*.mod*","*.msi","*.msix","*.msm","*.msp","*.o","*.obj","*.out","*.pch","*.pdb","*.so","*.so.*","*.stackdump","*.su","*.test","*.vsix","*.x86_64","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".com.apple.timemachine.donotpresent",".cosine",".directory",".fseventsd",".fuse_hidden*",".git",".github",".history/",".nfs*",".tmp_versions/",".vscode/*","Icon","Mkfile.old","Module.symvers","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","dkms.conf","ehthumbs.db","ehthumbs_vista.db","go.work","modules.order"],"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:21:42.679Z]: question_start
+INFO [2024-01-23T18:21:42.680Z]: {"prompt":"Are there any security considerations in handling multicast traffic in this project?","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:21:43.508Z]: tool_selected
+INFO [2024-01-23T18:21:43.508Z]: {"tool":"project_overview","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-23T18:21:48.476Z]: question_success
+INFO [2024-01-23T18:21:48.476Z]: {"prompt":"Are there any security considerations in handling multicast traffic in this project?","agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-24T18:32:55.320Z]: project_reinitialize_start
+INFO [2024-01-24T18:32:55.320Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-24T18:33:00.726Z]: project_reinitialize_success
+INFO [2024-01-24T18:33:00.726Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-24T18:33:21.015Z]: project_reinitialize_start
+INFO [2024-01-24T18:33:21.015Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}
+INFO [2024-01-24T18:33:21.222Z]: project_reinitialize_success
+INFO [2024-01-24T18:33:21.222Z]: {"agent":"cosine-vscode","version":"1.1.2","package":"@cosine/analytics"}

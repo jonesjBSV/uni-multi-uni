@@ -58,3 +58,326 @@ INFO [2024-01-18T19:46:58.654Z]: Fully initialized!
 INFO [2024-01-18T19:46:58.655Z]: extension_initialized
 INFO [2024-01-18T19:46:58.655Z]: {"timeToInit":3177}
 INFO [2024-01-18T19:46:58.666Z]: Reading ALL files
+INFO [2024-01-23T17:33:09.359Z]: Preparing to initialize extension
+INFO [2024-01-23T17:33:10.361Z]: Registering flag observer
+INFO [2024-01-23T17:33:10.362Z]: Navigating to loading page
+INFO [2024-01-23T17:33:10.362Z]: Navigation
+INFO [2024-01-23T17:33:10.362Z]: {"page":"/loading"}
+INFO [2024-01-23T17:33:10.362Z]: Initializing workspace controller
+INFO [2024-01-23T17:33:10.365Z]: Creating URI handler
+INFO [2024-01-23T17:33:10.365Z]: Getting auth service props
+INFO [2024-01-23T17:33:10.366Z]: Creating auth service
+INFO [2024-01-23T17:33:10.366Z]: Setting network auth service
+INFO [2024-01-23T17:33:10.366Z]: Creating context store
+INFO [2024-01-23T17:33:10.367Z]: Creating engine
+INFO [2024-01-23T17:33:10.367Z]: Creating sql db
+INFO [2024-01-23T17:33:10.421Z]: Creating vector db
+INFO [2024-01-23T17:33:10.421Z]: Creating config manager
+INFO [2024-01-23T17:33:10.425Z]: Get languages
+INFO [2024-01-23T17:33:10.425Z]: Reading ALL files
+INFO [2024-01-23T17:33:10.426Z]: Get Overview
+INFO [2024-01-23T17:33:10.426Z]: Creating code parser
+INFO [2024-01-23T17:33:10.426Z]: Creating code index
+INFO [2024-01-23T17:33:10.426Z]: Creating graphs
+INFO [2024-01-23T17:33:10.426Z]: Creating tagger
+INFO [2024-01-23T17:33:10.426Z]: Creating semantic
+INFO [2024-01-23T17:33:10.426Z]: Creating keyword
+INFO [2024-01-23T17:33:10.426Z]: Creating file search
+INFO [2024-01-23T17:33:10.426Z]: Initializing engine
+INFO [2024-01-23T17:33:10.505Z]: [CodeTagger.init] Initializing
+INFO [2024-01-23T17:33:10.508Z]: Initializing history service
+INFO [2024-01-23T17:33:10.508Z]: Creating project bot props
+INFO [2024-01-23T17:33:10.508Z]: Creating plan service
+INFO [2024-01-23T17:33:10.508Z]: Creating terms service
+INFO [2024-01-23T17:33:10.508Z]: Creating auth controller
+INFO [2024-01-23T17:33:10.509Z]: Initializing auth controller
+INFO [2024-01-23T17:33:10.509Z]: Checking auth
+INFO [2024-01-23T17:33:15.712Z]: Set User: rMIbIS8cvYUqhEIrZPIZGBczUjc2
+INFO [2024-01-23T17:33:15.737Z]: Creating plan controller
+INFO [2024-01-23T17:33:15.737Z]: Initializing plan controller
+INFO [2024-01-23T17:33:16.155Z]: Creating status controller
+INFO [2024-01-23T17:33:16.156Z]: Creating chat bot
+INFO [2024-01-23T17:33:16.158Z]: Creating git service
+INFO [2024-01-23T17:33:16.158Z]: Creating user context
+INFO [2024-01-23T17:33:16.158Z]: Creating search controller
+INFO [2024-01-23T17:33:16.159Z]: Initializing search controller
+INFO [2024-01-23T17:33:16.162Z]: Creating index controller
+INFO [2024-01-23T17:33:16.162Z]: Initializing index controller
+INFO [2024-01-23T17:33:16.162Z]: Creating migrate controller
+INFO [2024-01-23T17:33:16.162Z]: Initializing migrate controller
+INFO [2024-01-23T17:33:16.162Z]: Creating settings controller
+INFO [2024-01-23T17:33:16.163Z]: Initializing settings controller
+INFO [2024-01-23T17:33:16.163Z]: Creating navigation controller
+INFO [2024-01-23T17:33:16.163Z]: Initializing navigation controller
+INFO [2024-01-23T17:33:16.163Z]: Registering auth service with auth controller
+INFO [2024-01-23T17:33:16.163Z]: Calculating navigation
+INFO [2024-01-23T17:33:16.200Z]: Navigation
+INFO [2024-01-23T17:33:16.200Z]: {"page":"/initialize/project"}
+INFO [2024-01-23T17:33:16.204Z]: Fully initialized!
+INFO [2024-01-23T17:33:16.205Z]: extension_initialized
+INFO [2024-01-23T17:33:16.205Z]: {"timeToInit":6846}
+INFO [2024-01-23T17:33:16.217Z]: Reading ALL files
+INFO [2024-01-23T18:19:45.834Z]: Preparing to initialize extension
+INFO [2024-01-23T18:19:46.837Z]: Registering flag observer
+INFO [2024-01-23T18:19:46.837Z]: Navigating to loading page
+INFO [2024-01-23T18:19:46.837Z]: Navigation
+INFO [2024-01-23T18:19:46.837Z]: {"page":"/loading"}
+INFO [2024-01-23T18:19:46.837Z]: Initializing workspace controller
+INFO [2024-01-23T18:19:46.838Z]: Creating URI handler
+INFO [2024-01-23T18:19:46.838Z]: Getting auth service props
+INFO [2024-01-23T18:19:46.838Z]: Creating auth service
+INFO [2024-01-23T18:19:46.838Z]: Setting network auth service
+INFO [2024-01-23T18:19:46.838Z]: Creating context store
+INFO [2024-01-23T18:19:46.838Z]: Creating engine
+INFO [2024-01-23T18:19:46.838Z]: Creating sql db
+INFO [2024-01-23T18:19:46.883Z]: Creating vector db
+INFO [2024-01-23T18:19:46.883Z]: Creating config manager
+INFO [2024-01-23T18:19:46.887Z]: Get languages
+INFO [2024-01-23T18:19:46.887Z]: Reading ALL files
+INFO [2024-01-23T18:19:46.888Z]: Get Overview
+INFO [2024-01-23T18:19:46.888Z]: Creating code parser
+INFO [2024-01-23T18:19:46.888Z]: Creating code index
+INFO [2024-01-23T18:19:46.888Z]: Creating graphs
+INFO [2024-01-23T18:19:46.888Z]: Creating tagger
+INFO [2024-01-23T18:19:46.888Z]: Creating semantic
+INFO [2024-01-23T18:19:46.888Z]: Creating keyword
+INFO [2024-01-23T18:19:46.888Z]: Creating file search
+INFO [2024-01-23T18:19:46.888Z]: Initializing engine
+INFO [2024-01-23T18:19:46.962Z]: [CodeTagger.init] Initializing
+INFO [2024-01-23T18:19:46.965Z]: Initializing history service
+INFO [2024-01-23T18:19:46.965Z]: Creating project bot props
+INFO [2024-01-23T18:19:46.965Z]: Creating plan service
+INFO [2024-01-23T18:19:46.965Z]: Creating terms service
+INFO [2024-01-23T18:19:46.965Z]: Creating auth controller
+INFO [2024-01-23T18:19:46.965Z]: Initializing auth controller
+INFO [2024-01-23T18:19:46.966Z]: Checking auth
+INFO [2024-01-23T18:19:47.895Z]: Set User: rMIbIS8cvYUqhEIrZPIZGBczUjc2
+INFO [2024-01-23T18:19:47.918Z]: Creating plan controller
+INFO [2024-01-23T18:19:47.918Z]: Initializing plan controller
+INFO [2024-01-23T18:19:48.396Z]: Creating status controller
+INFO [2024-01-23T18:19:48.396Z]: Creating chat bot
+INFO [2024-01-23T18:19:48.397Z]: Creating git service
+INFO [2024-01-23T18:19:48.397Z]: Creating user context
+INFO [2024-01-23T18:19:48.397Z]: Creating search controller
+INFO [2024-01-23T18:19:48.397Z]: Initializing search controller
+INFO [2024-01-23T18:19:48.399Z]: Creating index controller
+INFO [2024-01-23T18:19:48.399Z]: Initializing index controller
+INFO [2024-01-23T18:19:48.399Z]: Creating migrate controller
+INFO [2024-01-23T18:19:48.399Z]: Initializing migrate controller
+INFO [2024-01-23T18:19:48.399Z]: Creating settings controller
+INFO [2024-01-23T18:19:48.399Z]: Initializing settings controller
+INFO [2024-01-23T18:19:48.399Z]: Creating navigation controller
+INFO [2024-01-23T18:19:48.399Z]: Initializing navigation controller
+INFO [2024-01-23T18:19:48.399Z]: Registering auth service with auth controller
+INFO [2024-01-23T18:19:48.399Z]: Calculating navigation
+INFO [2024-01-23T18:19:48.422Z]: Navigation
+INFO [2024-01-23T18:19:48.422Z]: {"page":"/initialize/project"}
+INFO [2024-01-23T18:19:48.426Z]: Fully initialized!
+INFO [2024-01-23T18:19:48.426Z]: extension_initialized
+INFO [2024-01-23T18:19:48.426Z]: {"timeToInit":2593}
+INFO [2024-01-23T18:19:48.436Z]: Reading ALL files
+INFO [2024-01-23T18:20:33.303Z]: Preparing to initialize extension
+INFO [2024-01-23T18:20:34.304Z]: Registering flag observer
+INFO [2024-01-23T18:20:34.304Z]: Navigating to loading page
+INFO [2024-01-23T18:20:34.304Z]: Navigation
+INFO [2024-01-23T18:20:34.304Z]: {"page":"/loading"}
+INFO [2024-01-23T18:20:34.304Z]: Initializing workspace controller
+INFO [2024-01-23T18:20:34.304Z]: Creating URI handler
+INFO [2024-01-23T18:20:34.305Z]: Getting auth service props
+INFO [2024-01-23T18:20:34.305Z]: Creating auth service
+INFO [2024-01-23T18:20:34.305Z]: Setting network auth service
+INFO [2024-01-23T18:20:34.305Z]: Creating context store
+INFO [2024-01-23T18:20:34.305Z]: Creating engine
+INFO [2024-01-23T18:20:34.305Z]: Creating sql db
+INFO [2024-01-23T18:20:34.349Z]: Creating vector db
+INFO [2024-01-23T18:20:34.349Z]: Creating config manager
+INFO [2024-01-23T18:20:34.353Z]: Get languages
+INFO [2024-01-23T18:20:34.353Z]: Reading ALL files
+INFO [2024-01-23T18:20:34.378Z]: Files: 4
+INFO [2024-01-23T18:20:34.378Z]: Counting languages
+INFO [2024-01-23T18:20:34.378Z]: Sorting languages
+INFO [2024-01-23T18:20:34.382Z]: Get Overview
+INFO [2024-01-23T18:20:34.387Z]: Creating code parser
+INFO [2024-01-23T18:20:34.387Z]: Creating code index
+INFO [2024-01-23T18:20:34.387Z]: Creating graphs
+INFO [2024-01-23T18:20:34.387Z]: Creating tagger
+INFO [2024-01-23T18:20:34.387Z]: Creating semantic
+INFO [2024-01-23T18:20:34.388Z]: Creating keyword
+INFO [2024-01-23T18:20:34.388Z]: Creating file search
+INFO [2024-01-23T18:20:34.388Z]: Initializing engine
+INFO [2024-01-23T18:20:34.411Z]: [CodeTagger.init] Initializing
+INFO [2024-01-23T18:20:34.412Z]: Initializing history service
+INFO [2024-01-23T18:20:34.412Z]: Creating project bot props
+INFO [2024-01-23T18:20:34.412Z]: Creating plan service
+INFO [2024-01-23T18:20:34.412Z]: Creating terms service
+INFO [2024-01-23T18:20:34.412Z]: Creating auth controller
+INFO [2024-01-23T18:20:34.412Z]: Initializing auth controller
+INFO [2024-01-23T18:20:34.412Z]: Checking auth
+INFO [2024-01-23T18:20:35.213Z]: Set User: rMIbIS8cvYUqhEIrZPIZGBczUjc2
+INFO [2024-01-23T18:20:35.235Z]: Creating plan controller
+INFO [2024-01-23T18:20:35.235Z]: Initializing plan controller
+INFO [2024-01-23T18:20:35.572Z]: Creating status controller
+INFO [2024-01-23T18:20:35.573Z]: Creating chat bot
+INFO [2024-01-23T18:20:35.574Z]: Creating git service
+INFO [2024-01-23T18:20:35.574Z]: Creating user context
+INFO [2024-01-23T18:20:35.574Z]: Creating search controller
+INFO [2024-01-23T18:20:35.575Z]: Initializing search controller
+INFO [2024-01-23T18:20:35.578Z]: Creating index controller
+INFO [2024-01-23T18:20:35.578Z]: Initializing index controller
+INFO [2024-01-23T18:20:35.578Z]: Creating migrate controller
+INFO [2024-01-23T18:20:35.578Z]: Initializing migrate controller
+INFO [2024-01-23T18:20:35.578Z]: Creating settings controller
+INFO [2024-01-23T18:20:35.578Z]: Initializing settings controller
+INFO [2024-01-23T18:20:35.579Z]: Creating navigation controller
+INFO [2024-01-23T18:20:35.579Z]: Initializing navigation controller
+INFO [2024-01-23T18:20:35.579Z]: Registering auth service with auth controller
+INFO [2024-01-23T18:20:35.579Z]: Calculating navigation
+INFO [2024-01-23T18:20:35.616Z]: Navigation
+INFO [2024-01-23T18:20:35.616Z]: {"page":"/initialize/project"}
+INFO [2024-01-23T18:20:35.619Z]: Fully initialized!
+INFO [2024-01-23T18:20:35.620Z]: extension_initialized
+INFO [2024-01-23T18:20:35.620Z]: {"timeToInit":2316}
+INFO [2024-01-23T18:20:35.632Z]: Reading ALL files
+INFO [2024-01-23T18:20:35.643Z]: Files: 4
+INFO [2024-01-23T18:20:35.643Z]: Counting languages
+INFO [2024-01-23T18:20:35.643Z]: Sorting languages
+INFO [2024-01-23T18:20:41.274Z]: project_languages
+INFO [2024-01-23T18:20:41.274Z]: {"languages":["Golang","C"]}
+INFO [2024-01-23T18:20:41.324Z]: Navigation
+INFO [2024-01-23T18:20:41.324Z]: {"page":"/initialize/ignore"}
+INFO [2024-01-23T18:20:41.339Z]: Reading ALL files
+INFO [2024-01-23T18:20:41.350Z]: Files: 5
+INFO [2024-01-23T18:20:41.350Z]: Counting languages
+INFO [2024-01-23T18:20:41.351Z]: Sorting languages
+INFO [2024-01-23T18:20:44.061Z]: Navigation
+INFO [2024-01-23T18:20:44.061Z]: {"page":"/initialize/progress"}
+INFO [2024-01-23T18:20:44.096Z]: Found 4 files
+INFO [2024-01-23T18:20:44.099Z]: project_initialize_start
+INFO [2024-01-23T18:20:44.099Z]: {"name":"ubsv_ipv6_multicast","languages":["C","Golang","JSON"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.a","*.app","*.cab","*.cmd","*.d","*.dSYM/","*.dll","*.dylib","*.elf","*.exe","*.exe~","*.exp","*.gch","*.hex","*.i*86","*.idb","*.ilk","*.ko","*.la","*.lib","*.lnk","*.lo","*.map","*.mod*","*.msi","*.msix","*.msm","*.msp","*.o","*.obj","*.out","*.pch","*.pdb","*.so","*.so.*","*.stackdump","*.su","*.test","*.vsix","*.x86_64","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".com.apple.timemachine.donotpresent",".cosine",".directory",".fseventsd",".fuse_hidden*",".git",".github",".history/",".nfs*",".tmp_versions/",".vscode/*","Icon","Mkfile.old","Module.symvers","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","dkms.conf","ehthumbs.db","ehthumbs_vista.db","go.work","modules.order"]}
+INFO [2024-01-23T18:20:44.353Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-23T18:20:44.353Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-23T18:20:44.353Z]: {"added":49,"deleted":0}
+INFO [2024-01-23T18:20:44.451Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-23T18:20:44.451Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-23T18:20:44.451Z]: {"language":"Golang"}
+INFO [2024-01-23T18:20:44.477Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-23T18:20:44.477Z]: {"language":"Golang","percent":50,"file":"multiperf-client.go"}
+INFO [2024-01-23T18:20:44.481Z]: [CodeGraphOrchestrator.preIndex] Symbolising
+INFO [2024-01-23T18:20:44.481Z]: {"language":"Golang","percent":100,"file":"multiperf-server.go"}
+INFO [2024-01-23T18:20:44.499Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-23T18:20:44.499Z]: {"language":"Golang","percent":50,"file":"multiperf-client.go"}
+INFO [2024-01-23T18:20:44.514Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-23T18:20:44.514Z]: {"language":"Golang","percent":100,"file":"multiperf-server.go"}
+INFO [2024-01-23T18:20:44.515Z]: [CodeGraphOrchestrator.preIndex] Linking
+INFO [2024-01-23T18:20:44.515Z]: {"language":"Golang","percent":100}
+INFO [2024-01-23T18:20:44.516Z]: [CodeGraphOrchestrator.preIndex] Linking complete
+INFO [2024-01-23T18:20:44.516Z]: {"language":"Golang"}
+INFO [2024-01-23T18:20:44.516Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-23T18:20:45.912Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-23T18:20:45.912Z]: {"length":49}
+INFO [2024-01-23T18:20:45.913Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-23T18:20:45.913Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-23T18:20:45.913Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-23T18:20:45.918Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-23T18:20:45.918Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-23T18:20:45.918Z]: [CodeGraphOrchestrator.index] Indexing Language
+INFO [2024-01-23T18:20:45.918Z]: {"language":"Golang"}
+INFO [2024-01-23T18:20:45.931Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-23T18:20:45.936Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-23T18:20:45.939Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-23T18:20:45.939Z]: {"added":49,"deleted":0}
+INFO [2024-01-23T18:20:45.939Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-23T18:20:45.939Z]: {"embeddingsToDelete":0}
+INFO [2024-01-23T18:20:45.939Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-23T18:20:45.939Z]: {"write":49}
+INFO [2024-01-23T18:20:45.995Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-23T18:20:45.995Z]: {"resuts":49,"delete":0}
+INFO [2024-01-23T18:20:45.995Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-23T18:20:45.995Z]: {"files":{"added":4,"changed":0,"deleted":0}}
+INFO [2024-01-23T18:20:46.018Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-23T18:20:46.020Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-23T18:20:46.023Z]: [CodeTagger.getCodebaseThemes] Getting codebase themes
+INFO [2024-01-23T18:20:52.469Z]: Tokens for Overview Summary
+INFO [2024-01-23T18:20:52.469Z]: {"projectName":6,"languages":4,"likelyLibraries":0,"code":0,"nonCode":0,"total":178}
+INFO [2024-01-23T18:20:58.027Z]: [CodeTagger.tagCodebase] Tagging codebase
+INFO [2024-01-23T18:21:06.691Z]: [CodeTagger.save] Saving index to file
+INFO [2024-01-23T18:21:06.713Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-23T18:21:17.616Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-23T18:21:17.617Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-23T18:21:17.617Z]: {"adding":0,"deleting":0}
+INFO [2024-01-23T18:21:17.631Z]: project_initialize_success
+INFO [2024-01-23T18:21:17.631Z]: {"name":"ubsv_ipv6_multicast","languages":["C","Golang","JSON"],"ignored":["!.vscode/*.code-snippets","!.vscode/extensions.json","!.vscode/launch.json","!.vscode/settings.json","!.vscode/tasks.json","$RECYCLE.BIN/","*.a","*.app","*.cab","*.cmd","*.d","*.dSYM/","*.dll","*.dylib","*.elf","*.exe","*.exe~","*.exp","*.gch","*.hex","*.i*86","*.idb","*.ilk","*.ko","*.la","*.lib","*.lnk","*.lo","*.map","*.mod*","*.msi","*.msix","*.msm","*.msp","*.o","*.obj","*.out","*.pch","*.pdb","*.so","*.so.*","*.stackdump","*.su","*.test","*.vsix","*.x86_64","*~",".AppleDB",".AppleDesktop",".AppleDouble",".DS_Store",".DocumentRevisions-V100",".LSOverride",".Spotlight-V100",".TemporaryItems",".Trash-*",".Trashes",".VolumeIcon.icns","._*",".apdisk",".com.apple.timemachine.donotpresent",".cosine",".directory",".fseventsd",".fuse_hidden*",".git",".github",".history/",".nfs*",".tmp_versions/",".vscode/*","Icon","Mkfile.old","Module.symvers","Network Trash Folder","Temporary Items","Thumbs.db","Thumbs.db:encryptable","[Dd]esktop.ini","dkms.conf","ehthumbs.db","ehthumbs_vista.db","go.work","modules.order"]}
+INFO [2024-01-23T18:21:42.681Z]: question_start
+INFO [2024-01-23T18:21:42.681Z]: {"prompt":"Are there any security considerations in handling multicast traffic in this project?"}
+INFO [2024-01-23T18:21:43.509Z]: tool_selected
+INFO [2024-01-23T18:21:43.510Z]: {"tool":"project_overview"}
+INFO [2024-01-23T18:21:48.476Z]: question_success
+INFO [2024-01-23T18:21:48.477Z]: {"prompt":"Are there any security considerations in handling multicast traffic in this project?"}
+INFO [2024-01-24T18:32:55.321Z]: project_reinitialize_start
+INFO [2024-01-24T18:32:55.321Z]: {}
+INFO [2024-01-24T18:32:55.379Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-24T18:32:55.379Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-24T18:32:55.379Z]: {"added":13,"deleted":11}
+INFO [2024-01-24T18:32:55.381Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-24T18:32:55.381Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-24T18:33:00.560Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-24T18:33:00.560Z]: {"length":13}
+INFO [2024-01-24T18:33:00.560Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-24T18:33:00.560Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-24T18:33:00.560Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-24T18:33:00.565Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-24T18:33:00.565Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-24T18:33:00.565Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-24T18:33:00.584Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-24T18:33:00.584Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-24T18:33:00.584Z]: {"added":13,"deleted":11}
+INFO [2024-01-24T18:33:00.584Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-24T18:33:00.584Z]: {"embeddingsToDelete":11}
+INFO [2024-01-24T18:33:00.585Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-24T18:33:00.585Z]: {"write":13}
+INFO [2024-01-24T18:33:00.641Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-24T18:33:00.641Z]: {"resuts":13,"delete":11}
+INFO [2024-01-24T18:33:00.641Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-24T18:33:00.641Z]: {"files":{"added":0,"changed":1,"deleted":0}}
+INFO [2024-01-24T18:33:00.657Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-24T18:33:00.678Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-24T18:33:00.720Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-24T18:33:00.722Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-24T18:33:00.722Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-24T18:33:00.722Z]: {"adding":0,"deleting":0}
+INFO [2024-01-24T18:33:00.727Z]: project_reinitialize_success
+INFO [2024-01-24T18:33:00.727Z]: {}
+INFO [2024-01-24T18:33:21.016Z]: project_reinitialize_start
+INFO [2024-01-24T18:33:21.016Z]: {}
+INFO [2024-01-24T18:33:21.051Z]: [Engine.indexCode] Preindexing with graph
+INFO [2024-01-24T18:33:21.052Z]: [SemanticCodeSearch.preIndex] Embedding components
+INFO [2024-01-24T18:33:21.052Z]: {"added":0,"deleted":0}
+INFO [2024-01-24T18:33:21.052Z]: [CodeGraphOrchestrator.preIndex] Preindexing
+INFO [2024-01-24T18:33:21.052Z]: [CodeGraphOrchestrator.preIndex] Preindexed
+INFO [2024-01-24T18:33:21.052Z]: [SemanticCodeSearch.preIndex] Embedded components
+INFO [2024-01-24T18:33:21.052Z]: {"length":0}
+INFO [2024-01-24T18:33:21.052Z]: [Engine.indexCode]: Preindexed semantic & graph
+INFO [2024-01-24T18:33:21.052Z]: [Engine.indexCode] Indexing code
+INFO [2024-01-24T18:33:21.052Z]: [KeywordCodeSearch.index] Indexing
+INFO [2024-01-24T18:33:21.052Z]: [KeywordCodeSearch.index] Saving index
+INFO [2024-01-24T18:33:21.052Z]: [CodeGraphOrchestrator.index] Indexing
+INFO [2024-01-24T18:33:21.052Z]: [CodeGraphOrchestrator.index] Indexed
+INFO [2024-01-24T18:33:21.065Z]: [KeywordCodeSearch.index] Indexed
+INFO [2024-01-24T18:33:21.065Z]: [SemanticCodeSearch.index] Indexing components
+INFO [2024-01-24T18:33:21.065Z]: {"added":0,"deleted":0}
+INFO [2024-01-24T18:33:21.065Z]: [SemanticCodeSearch.index] Deleting components
+INFO [2024-01-24T18:33:21.065Z]: {"embeddingsToDelete":0}
+INFO [2024-01-24T18:33:21.065Z]: [SemanticCodeSearch.index] Writing components
+INFO [2024-01-24T18:33:21.065Z]: {"write":0}
+INFO [2024-01-24T18:33:21.113Z]: [SemanticCodeSearch.index] Indexed components
+INFO [2024-01-24T18:33:21.113Z]: {"resuts":0,"delete":0}
+INFO [2024-01-24T18:33:21.116Z]: [CodeIndex.index] Indexing with MetaDB
+INFO [2024-01-24T18:33:21.116Z]: {"files":{"added":0,"changed":0,"deleted":0}}
+INFO [2024-01-24T18:33:21.127Z]: [CodeIndex.index] Indexed with MetaDB
+INFO [2024-01-24T18:33:21.141Z]: [CodeTagger.index] Starting to index
+INFO [2024-01-24T18:33:21.216Z]: [Engine.indexCode] Indexed code
+INFO [2024-01-24T18:33:21.217Z]: [KeywordCodeSearch.diffIndex] Computing diff
+INFO [2024-01-24T18:33:21.217Z]: [KeywordCodeSearch.diffIndex] Diff computed
+INFO [2024-01-24T18:33:21.217Z]: {"adding":0,"deleting":0}
+INFO [2024-01-24T18:33:21.223Z]: project_reinitialize_success
+INFO [2024-01-24T18:33:21.223Z]: {}

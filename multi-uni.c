@@ -8,34 +8,63 @@
 #include <sys/select.h>
 #include <errno.h>
 #include <net/if.h>
+#include <stdbool.h>
 
 #define MAX_CLIENTS 500
 #define BUFFER_SIZE 1024
 
-struct sockaddr_in6 client_addresses[MAX_CLIENTS];
+struct client_info {
+        struct sockaddr_in6 addr;
+        uint16_t port;
+};
+
+struct client_info client_addresses[MAX_CLIENTS];
 int num_clients = 0;
 
-void add_client(struct sockaddr_in6 *client_addr) {
-        if (num_clients < MAX_CLIENTS) {
-                client_addresses[num_clients++] = *client_addr;
-        } else {
-                fprintf(stderr, "Max clients reached, cannot add more\n");
-        }
+bool add_client(struct sockaddr_in6 *client_addr, uint16_t port) {
+    if (num_clients < MAX_CLIENTS) {
+        client_addresses[num_clients].addr = *client_addr;
+        client_addresses[num_clients].port = port; // Convert to host byte order
+        fprintf(stderr, "Adding client: %s, Port: %d\n",
+                inet_ntop(AF_INET6, &client_addr->sin6_addr, (char[INET6_ADDRSTRLEN]){0}, INET6_ADDRSTRLEN),
+                ntohs(port));
+        num_clients++;
+        return true;
+    } else {
+        fprintf(stderr, "Max clients reached, cannot add more\n");
+        return false;
+    }
 }
 
-void remove_client(struct sockaddr_in6 *client_addr) {
-        for (int i = 0; i < num_clients; i++) {
-                if (memcmp(&client_addresses[i], client_addr, sizeof(struct sockaddr_in6)) == 0) {
-                        client_addresses[i] = client_addresses[--num_clients];
-                        break;
-                }
+bool remove_client(struct sockaddr_in6 *client_addr, uint16_t port) {
+    char client_addr_str[INET6_ADDRSTRLEN];
+    inet_ntop(AF_INET6, &client_addr->sin6_addr, client_addr_str, INET6_ADDRSTRLEN);
+    uint16_t port_host_order = ntohs(port); // Convert received port to host byte order
+
+    for (int i = 0; i < num_clients; i++) {
+        char existing_client_addr_str[INET6_ADDRSTRLEN];
+        inet_ntop(AF_INET6, &client_addresses[i].addr.sin6_addr, existing_client_addr_str, INET6_ADDRSTRLEN);
+
+        if (strcmp(existing_client_addr_str, client_addr_str) == 0 &&
+            client_addresses[i].port == port) {
+            client_addresses[i] = client_addresses[--num_clients];
+            fprintf(stderr, "Removed client: %s, Port:%d\n", client_addr_str, port_host_order);
+            return true;
         }
+    }
+    fprintf(stderr, "Failed to remove client: %s, Port: %d) \n", client_addr_str, port_host_order);
+    return false;
 }
 
 void forward_packet(int multicast_socket, char *buffer, ssize_t len) {
     for (int i = 0; i < num_clients; i++) {
-        sendto(multicast_socket, buffer, len, 0, (struct sockaddr *)&client_addresses[i], sizeof(struct sockaddr_in6));
+        client_addresses[i].addr.sin6_port = htons(client_addresses[i].port);
+        sendto(multicast_socket, buffer, len, 0, (struct sockaddr *)&client_addresses[i].addr, sizeof(struct sockaddr_in6));
     }
+}
+
+void send_response(int socket, struct sockaddr_in6 *client_addr, const char *message) {
+    sendto(socket, message, strlen(message), 0, (struct sockaddr *)client_addr, sizeof(struct sockaddr_in6));
 }
 
 void handle_join_leave_request(int multicast_socket, int request_socket) {
@@ -43,21 +72,35 @@ void handle_join_leave_request(int multicast_socket, int request_socket) {
     unsigned int addr_len = sizeof(struct sockaddr_in6);
     char buffer[BUFFER_SIZE];
     ssize_t recv_len;
-        char addr_str[INET6_ADDRSTRLEN];
+    char addr_str[INET6_ADDRSTRLEN];
 
     recv_len = recvfrom(request_socket, buffer, BUFFER_SIZE, 0, (struct sockaddr *)&client_addr, &addr_len);
     if (recv_len <= 0) return;
 
-    if (strncmp(buffer, "JOIN", 4) == 0) {
-        add_client(&client_addr);
-                inet_ntop(AF_INET6, &client_addr.sin6_addr, addr_str, INET6_ADDRSTRLEN);
-        printf("Client joined: %s\n", addr_str);
-    } else if (strncmp(buffer, "LEAVE", 5) == 0) {
-        remove_client(&client_addr);
-                inet_ntop(AF_INET6, &client_addr.sin6_addr, addr_str, INET6_ADDRSTRLEN);
-        printf("Client left: %s\n", addr_str);
-    } else {
-        printf("Unknown request\n");
+    buffer[recv_len] = '\0'; // Ensure null-termination for string operations
+
+    char *token = strtok(buffer, ":");
+    if (token != NULL) {
+        char *cmd = token;
+        token = strtok(NULL, ":");
+        if (token != NULL) {
+            uint16_t port = ntohs((uint16_t)atoi(token));
+
+            inet_ntop(AF_INET6, &client_addr.sin6_addr, addr_str, INET6_ADDRSTRLEN);
+
+            if (strcmp(cmd, "JOIN") == 0) {
+                bool success = add_client(&client_addr, port);
+                send_response(request_socket, &client_addr, success ? "SUCCESSFULLY JOINED" : "FAILED TO JOIN");
+                printf("Client joined: %s, Port: %d\n", addr_str, ntohs(port));
+            } else if (strcmp(cmd, "LEAVE") == 0) {
+                bool success = remove_client(&client_addr, port);
+                send_response(request_socket, &client_addr, success ? "SUCCESSFULLY LEFT" : "FAILED TO LEAVE");
+                if(success) { printf("Client left: %s, Port: %d\n", addr_str, ntohs(port)); }
+            } else {
+                send_response(request_socket, &client_addr, "Uknown request\n");
+                printf("Unknown request\n");
+            }
+        }
     }
 }
 
@@ -177,10 +220,9 @@ if (argc != 6) {
                 if (FD_ISSET(request_socket, &readfds)) {
                         handle_join_leave_request(multicast_socket, request_socket);
                 }
-        }
+    }
 
-        close(multicast_socket);
-        close(request_socket);
-        return 0;
+    close(multicast_socket);
+    close(request_socket);
+    return 0;
 }
-
